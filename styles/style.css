@@ -1,2 +1,10 @@
-article p:first-child::first-line{
-  font-weight:bold}
+/* it includes all the child. in this example, all the li under ul */
+.descend ul li {
+  border: 5px solid black;
+}
+/* it includes only the sub child. in this example, only the subc li under ul, (not like sub-sub-child*/
+
+.child ul>li{
+  border: 5px solid black;
+
+}
